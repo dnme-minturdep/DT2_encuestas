@@ -4,7 +4,6 @@ fig:residentes
 fig:europa
 fig:ocupados
 fig:relevamiento
-fig:peso
 fig:indicadores
 encuesta
 definiciones-y-problemas-generales
