@@ -59,7 +59,7 @@ Si bien una primera impresión podría considerar al censo como la opción más 
 :::
 
 ::: {.note}
-La EOH cuenta con una muestra mensual de aproximadamente 3 mil establecimientos hoteleros y parahoteleros en las 49 localidades relevadas. La selección de los establecimientos se realiza a través de un muestreo con probabilidad proporcional a la cantidad de plazas. Es decir, los establecimientos de cada una de las localidades relevadas por la EOH tienen asociados una probabilidad de seleccion en función de las plazas que disponen; aquellos hoteles con mayor cantidad de plazas ofrecidas tendrá mayor probabilidad de ser seleccionado en la muestra. Cabe aclarar, que los hoteles de 4 y 5 estrellas son de "inclusión forsoza", es decir son censados todos, no se realiza una muestra de dicho estrato. De esta manera, la EOH con los datos muestrales extrapolados brinda información mensual de 49 localidades, de 7 regiones turísticas y para el total nacional. **Ver más : link a metodologia**
+La EOH cuenta con una muestra mensual de aproximadamente 3 mil establecimientos hoteleros y parahoteleros en las 49 localidades relevadas. El diseño es de tipo estratificado en grupos de establecimientos según categorías, con un método de selección de probabilidad proporcional a la cantidad de plazas. Es decir, los establecimientos de cada una de las localidades relevadas por la EOH tienen asociados una probabilidad de seleccion en función de las plazas que disponen dentro de cada estrato; aquellos hoteles con mayor cantidad de plazas ofrecidas tendrá mayor probabilidad de ser seleccionado en la muestra. Cabe aclarar, que los hoteles de 4 y 5 estrellas son de "inclusión forsoza", es decir son censados todos. De esta manera, la EOH a partir de los datos muestrales expandidos brinda información mensual de 49 localidades, de 7 regiones turísticas y para el total nacional. Ver +: [Doc metodológico](https://www.indec.gob.ar/ftp/cuadros/economia/eoh_aspectos_metodologicos.pdf) (INDEC).
 :::
 
 ## Padrón de establecimientos de alojamiento turísticos
@@ -444,7 +444,7 @@ Por tanto, las variables elementales que pueden ser relevadas en este tipo de op
 
 [^guia_encuestas-7]: En establecimientos no hoteleros como complejos de cabañas, apart hoteles, complejos de departamentos y campings, ya no se mide la ocupación y disponibilidad en habitaciones, sino en la misma unidad. En los complejos de cabañas, la unidad es la misma cabaña; en los apart hoteles y complejos de departamentos, el departamento; en los campings, la parcela.
 
-La variable "**plazas ocupadas"** resulta crucial, dado que constituye uno de los insumos elementales para la estimación del **"porcentaje de ocupación en plazas"** (plazas ocupadas / plazas disponibles, en un período determinado) y de las "**pernoctaciones"** (suma de las plazas ocupadas de todos los establecimientos en un período determinado). En el caso del porcentaje de ocupación en plazas, como se observa, la variable plazas ocupadas interviene en el numerador de la fórmula de cálculo.
+La variable **"plazas ocupadas"** resulta crucial, dado que constituye uno de los insumos elementales para la estimación del **"porcentaje de ocupación en plazas"** (plazas ocupadas / plazas disponibles, en un período determinado) y de las **"pernoctaciones"** (suma de las plazas ocupadas de todos los establecimientos en un período determinado). En el caso del porcentaje de ocupación en plazas, como se observa, la variable plazas ocupadas interviene en el numerador de la fórmula de cálculo.
 
 Es recomendable que, la cantidad de plazas ocupadas sea relevada en términos absolutos (es decir, como cantidad). El mismo criterio aplica para la **cantidad de habitaciones ocupadas**, variable que participa en la estimación del porcentaje de ocupación en habitaciones (cuya fórmula es cantidad de habitaciones ocupadas/ cantidad de habitaciones disponibles).
 
@@ -490,7 +490,7 @@ Para finalizar, existen otras variables que pueden ser relevadas mediante un ope
 
 -   En relación al **empleo**, puede indagarse la cantidad de personas ocupadas en el establecimiento. Más aún, a las personas ocupadas se las podría clasificar tal como se sugiere debajo:
 
-```{r ocupados, echo=FALSE, fig.cap="Tipos de ocupados" }
+```{r ocupados, echo=FALSE, fig.cap="Categorías ocupacionales utilizadas en la EOH (MINTURDEP-INDEC)" }
 knitr::include_graphics('imagenes/Tabla 5.jpg')
 ```
 
@@ -588,7 +588,7 @@ knitr::include_graphics('imagenes/Tabla 6.jpg')
 
 ### Otras consideraciones acerca del trabajo de campo
 
-En relación al personal a cargo de la recolección de datos, como se desprende dela figura anterior, las encuestas pueden ser realizadas por personas que trabajen dentro de la institución y que estén afectadas a distintas tareas, o por encuestadores específicamente destinados a este trabajo. En la mayoría de las jurisdicciones, por razones de disponibilidad de recursos humanos, el trabajo de campo es ejecutado por el mismo personal de las entidades de turismo.
+En relación al personal a cargo de la recolección de datos, como se desprende de la figura anterior, las encuestas pueden ser realizadas por personas que trabajen dentro de la institución y que estén afectadas a distintas tareas, o por encuestadores específicamente destinados a este trabajo. En la mayoría de las jurisdicciones, por razones de disponibilidad de recursos humanos, el trabajo de campo es ejecutado por el mismo personal de las entidades de turismo.
 
 Por último, es preciso llevar adelante un continuo y simultáneo monitoreo del trabajo de campo, dado que permite detectar a tiempo:
 
@@ -606,7 +606,7 @@ La etapa lógica que sigue al trabajo de campo es la **carga de los datos**, que
 
 Por otro lado, como se mencionó en el apartado 1.1, muchas provincias argentinas suelen recopilar datos de estudios de ocupación hotelera y para-hotelera producidos por los municipios. En varios de estos casos, los equipos técnicos de las provincias han diseñado planillas modelo en las que se propone a cada jurisdicción municipal cargar los datos producidos, con el fin de utilizarla para realizar estimaciones propias, ya sea a nivel local o provincial (agregando datos de las localidades relevadas).
 
-A continuación se presenta un modelo de planilla para la carga de los datos, que puede ser utilizada por los municipios y/o provincias, ya sea para producir datos propios o recopilar datos producidos por terceros. Para seguir en la misma línea, se utilizaron algunos de los establecimientos considerados en el ejemplo de estratificación y selección de muestras al interior de cada estrato (apartado 2.5.2.8). Asimismo, se asumió que el relevamiento se realiza los días lunes y miércoles, preguntando el lunes por las plazas ocupadas y plazas disponibles del sábado anterior, y el día miércoles por las plazas ocupadas del martes previo.
+A continuación se presenta un modelo de planilla para la carga de los datos, que puede ser utilizada por los municipios y/o provincias, ya sea para producir datos propios o recopilar datos producidos por terceros. Para seguir en la misma línea, se utilizaron algunos de los establecimientos considerados en el ejemplo de estratificación y selección de muestras al interior de cada estrato (apartado 2.5.2.7). Asimismo, se asumió que el relevamiento se realiza los días lunes y miércoles, preguntando el lunes por las plazas ocupadas y plazas disponibles del sábado anterior, y el día miércoles por las plazas ocupadas del martes previo.
 
 ```{r tabla_6a, echo=FALSE, fig.cap="Modelo de planilla para la carga de los datos" }
 knitr::include_graphics('imagenes/Tabla 6A.jpg')
@@ -617,8 +617,6 @@ knitr::include_graphics('imagenes/Tabla 6A.jpg')
 Una vez que han sido ingresados los casos a la base de datos, es necesario llevar adelante un proceso de **validación**[^guia_encuestas-8], lo cual implica realizar un análisis de consistencia interna de los datos y de situaciones extrañas o no esperadas en los valores de los datos. Durante la validación pueden detectarse **errores** y/o **advertencias**. Un ejemplo de error sería encontrar que la cantidad de plazas ocupadas supere a la cantidad de plazas disponibles[^guia_encuestas-9]. Por otro lado, una advertencia se podría presentar cuando en un establecimiento se produce una variación notoria en la cantidad de plazas ocupadas, en un período en que se esperaba que ese valor estuviese estancado. Si durante el proceso de validación se detecta algún dato inconsistente o alguna advertencia, lo adecuado es volver a contactar al encuestado para solicitarle el dato correcto en el caso de un error o para constatar si lo que surgió como advertencia es un error o una situación que tuvo lugar realmente.
 
 [^guia_encuestas-8]: La validación no es exclusiva de esta etapa y es preciso que se definan pautas de consistencia para las diferentes etapas del campo (cuando se completa el formulario, cuando el mismo es recepcionado por un supervisor, etc.). No obstante, en esta etapa las herramientas informáticas permiten validar la información en forma certera, pudiendo incluir además información externa (por ejemplo, si algún valor se aleja sustancialmente de la media del estrato o de información suministrada anteriormente por el mismo establecimiento, casos en los que es preciso chequear que la información brindada sea la correcta).
-
-    \
 
 [^guia_encuestas-9]: Sin embargo, puede ocurrir que un establecimiento, en períodos de alta demanda, utilice sus plazas supletorias. En esos casos, se debe corregir el número correspondiente a las plazas disponibles.
 
@@ -686,7 +684,7 @@ Nuevamente, si bien su función es doble, esto no significa que haya que calcula
 
 Cabe mencionar que los procedimientos para el cálculo de ponderadores presentados son aplicables a muestras seleccionadas con las técnicas MAS o MSYS, en las cuales cada uno de los elementos tiene idéntica probabilidad de selección.
 
-Para afianzar las ideas desarrolladas en este apartado, a continuación se describirá el proceso de construcción de factores de expansión para las muestras seleccionadas en el apartado 2.5.2.8.
+Para afianzar las ideas desarrolladas en este apartado, a continuación se describirá el proceso de construcción de factores de expansión para las muestras seleccionadas en el apartado 2.5.2.7.
 
 Recuérdese que la muestra final seleccionada fue:
 

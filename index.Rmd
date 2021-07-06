@@ -27,11 +27,11 @@ Además de este, se encuentran disponibles una serie de documentos técnicos que
 
 ### Documento Técnico Nº2 - Resumen {.unnumbered}
 
-El propósito general del documento es presentar propuestas metodológicas que puedan ser aplicadas a los relevamientos de alojamientos turísticos, tomando como referencia el estado de situación actual de la Producción de Estadísticas en las provincias, departamentos y/o municipios.
+El propósito general del documento es presentar propuestas metodológicas que puedan ser aplicadas a los relevamientos de alojamientos turísticos en los distintos niveles de interés (municipales, aréas turística, provincias, regiones, etc).
 
 Los objetivos específicos, asimismo, son:
 
--   Exponer las principales situaciones identificadas en los relevamientos de alojamiento turísticos provinciales y locales.
+-   Exponer las principales situaciones problemáticasidentificadas en los relevamientos de alojamiento turísticos provinciales y locales.
 
 -   Presentar propuestas y recomendaciones metodológicas aplicables a los relevamientos de alojamientos turísticos, para todas las etapas del estudio, desde su planteamiento inicial hasta la estimación de resultados.
 

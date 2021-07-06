@@ -14,7 +14,7 @@ Las encuestas o relevamientos de establecimientos de alojamiento turístico son 
 
 -   cuantificar los pernoctes y viajeros hospedados;
 
--   clasificar la demanda según origen y permanencia-cantidad de noches que permanecieron alojados-;
+-   clasificar la demanda según origen y permanencia -cantidad de noches que permanecieron alojados-;
 
 -   dimensionar el nivel de empleo generado por esta actividad;
 
@@ -30,7 +30,7 @@ Uno de los inconvenientes asociados a los relevamientos de establecimientos de a
 
 En Argentina se llevan adelante diversos operativos de alojamientos turísticos, ya sea desde instituciones nacionales, provinciales o municipales.
 
-Desde la esfera nacional, el Ministerio de Turismo y Deportes de la Nación (en adelante MINTURDEP) y el Instituto Nacional de Estadísticas y Censos (INDEC) conducen desde el año 2004, con una periodicidad mensual, la Encuesta de Ocupación Hotelera (EOH). La misma tiene el objetivo de medir el impacto del turismo internacional e interno sobre la actividad de los establecimientos hoteleros y para-hoteleros[^enucestas_alojamientos-2], por medio de los siguientes indicadores: cantidad de plazas y habitaciones disponibles y ocupadas; tasa de ocupación en plazas y habitaciones; número de viajeros hospedados totales y según origen (argentinos, por provincia, o extranjeros, por país o región) y permanencia. La encuesta se realiza sobre una muestra compuesta por establecimientos de 49 de las localidades con mayor oferta hotelera y para-hotelera del país, dentro de las siete regiones turísticas definidas por el MINTURDEP[^enucestas_alojamientos-3]. De este modo, con la EOH es posible realizar dos tipos de estimaciones: 1) resultados para cada una de las 49 localidades contempladas individualmente; 2) resultados regionales (representan aproximadamente al 80% de la oferta de las plazas de cada región) y a nivel total país (con una representatividad del 60% de las plazas totales).
+Desde la esfera nacional, el Ministerio de Turismo y Deportes de la Nación (en adelante MINTURDEP) y el Instituto Nacional de Estadísticas y Censos (INDEC) conducen desde el año 2004, con una periodicidad mensual, la Encuesta de Ocupación Hotelera (EOH). La misma tiene el objetivo de medir el impacto del turismo internacional e interno sobre la actividad de los establecimientos hoteleros y para-hoteleros[^enucestas_alojamientos-2], por medio de los siguientes indicadores: cantidad de plazas y habitaciones disponibles y ocupadas; tasa de ocupación en plazas y habitaciones; número de viajeros hospedados totales y según origen (argentinos, por provincia, o extranjeros, por país o región) y permanencia. La encuesta se realiza sobre una muestra compuesta por establecimientos de 49 de las localidades con mayor oferta hotelera y para-hotelera del país, dentro de las siete regiones turísticas definidas por el MINTURDEP[^enucestas_alojamientos-3]. De este modo, con la EOH es posible realizar dos tipos de estimaciones: 1) resultados para cada una de las 49 localidades contempladas individualmente; 2) resultados regionales (con una cobertura aproximada del 80% de las plazas de cada región) y a nivel total país (con una representatividad del 60% de las plazas totales). Por último, una de las ventajas de este relevamiento radica en que se ejecuta utilizando la misma metodología a lo largo y ancho del país.
 
 [^enucestas_alojamientos-2]: Los tipos de establecimientos relevados son, dentro de los hoteleros, hoteles de 1 a 5 estrellas, apart-hoteles, moteles, hoteles boutique; y, dentro de los para-hoteleros, hoteles residenciales, hoteles sindicales, albergues (o hostels), cabañas (o bungalows), hospedajes, bed&breakfast, hosterías, etc. No obstante, entre estos tipos de alojamiento no se consideran los de tamaño pequeño (con hasta 4 habitaciones o 12 plazas inclusive). Cabe señalar que este operativo excluye a otros alojamientos, como las viviendas de alquiler temporario, los campings, las segundas viviendas y las viviendas de familiares y/o amigos, y otros lugares de alojamiento de menor relevancia, dada la diferencia que presentan en la prestación de servicios con respecto a los establecimientos hoteleros y para-hoteleros.
 
@@ -56,7 +56,7 @@ En primer lugar, se observa que los diversos relevamientos provinciales/ departa
 
 En relación al **tipo de estudio**, la mayoría de las jurisdicciones intentan tener una cobertura total (censal) de la población objetivo, aunque en muchos casos se llevan adelante estudios muestrales. Sobre este aspecto, una de las situaciones observadas es que la selección de los establecimientos que conformarán la muestra se realiza sin seguir un criterio estadístico[^enucestas_alojamientos-5].De hecho, suele ocurrir que la muestra seleccionada en realidad esté integrada por establecimientos cuyos dueños o responsables sean los más predispuestos a responder, lo cual no constituye un criterio estadístico en la construcción de la muestra. Esto merece especial atención a la hora de analizar los resultados, dado que los datos surgidos de dicha muestra pueden no ser representativos en relación a la población en análisis.
 
-[^enucestas_alojamientos-5]: El muestreo estadístico **probabilistico** es aquel en el que todos los elementos de una población (en la mayoría de los casos, los alojamientos habilitados) tienen una probabilidad de selección conocida. En el **muestreo al azar simple**, método de selección más sencillo, que será introducido en los párrafos siguientes, todas las unidades tienen la misma probabilidad de selección.
+[^enucestas_alojamientos-5]: El muestreo estadístico es aquel en el que todos los elementos de una población (en la mayoría de los casos, los alojamientos habilitados) tienen una probabilidad de selección conocida. En el muestreo al azar simple, que es el método de selección más sencillo, todas las unidades tienen la misma probabilidad de selección.
 
 En lo que al **trabajo de campo** compete, la periodicidad o frecuencia con la que se relevan los datos difiere entre las diferentes provincias, departamentos y/o municipios. En efecto, se observó que la periodicidad de toma del dato puede ser diaria, semanal, quincenal o mensual. A su vez, en los operativos que relevan datos con una frecuencia no diaria, la información recabada puede referir a todos los días del período analizado o solamente a algunos días del mismo. Para este último caso, es preciso considerar si se analizarán los datos únicamente sobre los días relevados o si los resultados obtenidos se expandirán a todos los días comprendidos en el período en cuestión.
 
@@ -76,12 +76,13 @@ En otro orden, un inconveniente común a todas las provincias, departamentos y/o
 
 Por último, merece la pena destacar que en los casos en que se observaron procedimientos de expansión de los resultados obtenidos, estos suelen ser lineales, no respetando el peso o importancia de cada estrato o grupo. En los casos analizados, el mismo consiste en aplicar, por ejemplo, el porcentaje de ocupación en plazas general obtenido en la muestra (o en el conjunto de establecimientos--para los censos) sobre el total de plazas disponibles en todos los establecimientos que conforman el universo de estudio, para luego estimar la cantidad de plazas ocupadas en la población total. Este procedimiento es lineal, en el sentido que realiza una expansión directa, sin evaluar si en los casos efectivamente relevados se produjo un desbalance de los estratos o grupos. En efecto, de haberse producido dicho desbalance, sería necesaria una expansión de los resultados por estrato.
 
-::: {.note}
+::: {.note} 
 Para más información de los informes de resultados, series estadísticas y la metodología, vistá:
 
-**Informes de prensa en [Yvera](https://www.yvera.tur.ar/estadistica/info/encuesta-de-ocupacion-hotelera-eoh)**
+[**Informes de prensa en Yvera**](https://www.yvera.tur.ar/estadistica/info/encuesta-de-ocupacion-hotelera-eoh)
 
 [**Data Abierta**](http://datos.yvera.tur.ar/dataset/encuesta-ocupacion-hotelera-parahotelera-eoh)
 
-**Doc metodológico ([INDEC](https://www.indec.gob.ar/ftp/cuadros/economia/eoh_aspectos_metodologicos.pdf))**
+[**Doc metodológico**](https://www.indec.gob.ar/ftp/cuadros/economia/eoh_aspectos_metodologicos.pdf) **(INDEC)**
+
 :::
