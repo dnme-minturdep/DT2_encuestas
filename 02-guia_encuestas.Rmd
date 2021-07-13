@@ -98,7 +98,7 @@ Mantener actualizados los padrones supone:
 
 Las implicancias planteadas representan un estado ideal de actualización, que en la situación particular de cada provincia/departamento/municipio pueden ser más o menos alcanzables. Lógicamente, padrones actualizados garantizan universos más completos y muestras más acordes a la población de que son extraídas, y por tanto, resultados de ocupación del sector con mayor robustez y representatividad.
 
-## Estudios por muestreo. Tipos de muestreo.
+## Estudios por muestreo. Tipos de muestreo
 
 Existen distintos tipos de muestreo. Un primer criterio de clasificación los distingue en **probabilísticos** y **no probabilísticos**. En el primer tipo de muestreo se tiene conocimiento de cada una de las unidades que conforman la población bajo estudio (y de la que se extraerá la muestra), ya que se dispone de algún documento u otro tipo de material que da cuenta de la misma. A su vez, al conocer a todas las unidades que conforman la población, también se conoce la probabilidad de cada una de ellas de ser seleccionadas para formar parte de la muestra. En cambio, en el muestreo no probabilístico no se dispone de información acerca de la población bajo estudio y, por ende, tampoco de las probabilidades de selección de cada unidad.
 
@@ -268,7 +268,7 @@ Luego de haberse establecido cuáles serán los estratos, se hace necesario **de
 
 Un paso previo a la asignación de casos es la determinación del tamaño total de la muestra. Una alternativa viable y sencilla es hacerlo mediante muestreo aleatorio simple (MAS), y posteriormente asignar casos a cada estrato.
 
-Una vez establecido el tamaño total de la muestra, se procede a calcular el **peso relativo** (expresado en porcentaje o proporción) de cada uno de los estratos en la población total. Luego, el porcentaje o proporción correspondiente a cada estrato se multiplica por el tamaño total de la muestra, para obtener el tamaño (o cantidad de casos) de cada estrato. Por ejemplo, se supone que la población fue dividida en 3 estratos, cuyos pesos son 0,2, 0,45 y 0,35. Si el tamaño total de la muestra es de 400 casos, la cantidad de casos correspondiente a cada estrato será 80 (0,2\*400), 180 (0,45\*400) y 140 (0,35\*400).
+Una vez establecido el tamaño total de la muestra, se procede a calcular el **peso relativo** (expresado en porcentaje o proporción) de cada uno de los estratos en la población total. Luego, el porcentaje o proporción correspondiente a cada estrato se multiplica por el tamaño total de la muestra, para obtener el tamaño (o cantidad de casos) de cada estrato. Por ejemplo, se supone que la población fue dividida en 3 estratos, cuyos pesos son 0,2, 0,45 y 0,35. Si el tamaño total de la muestra es de 400 casos, la cantidad de casos correspondiente a cada estrato será 80 ($0,2$\*$400$), 180 ($0,45$\*$400$) y 140 ($0,35$\*$400$).
 
 ##### Procedimiento de selección de unidades dentro de los estratos
 
@@ -328,7 +328,7 @@ Como se puede observar, un primer criterio de estratificación distingue a los e
 
 Una vez definidos los estratos, se procede a clasificar los establecimientos del padrón en estos diferentes sub-universos.
 
-```{r criterios_estratos, echo=FALSE, fig.cap=" Criterios de estratificación y definición de los estratos" }
+```{r criterios-estratos, echo=FALSE, fig.cap=" Criterios de estratificación y definición de los estratos" }
 knitr::include_graphics('imagenes/tabla_2.jpg')
 ```
 
@@ -354,11 +354,11 @@ El equipo técnico de la provincia X tomó la decisión de que la asignación de
 
 [^guia_encuestas-5]: Otra variable en función de la cual se pueden calcular los pesos de los estratos podría ser habitaciones disponibles, siempre y cuando las habitaciones sean la (o una de las) unidad/es de análisis.
 
-```{r cantidad_de_plazas, echo=FALSE, fig.cap="" }
+```{r cantidad-de-plazas, echo=FALSE, fig.cap="Cantidad de plazas" }
 knitr::include_graphics('imagenes/tabla_2A.jpg')
 ```
 
-```{r peso_de_estrato, echo=FALSE, fig.cap="" }
+```{r peso-de-estrato, echo=FALSE, fig.cap="Peso de estrato" }
 knitr::include_graphics('imagenes/tabla_2B.jpg')
 ```
 
@@ -366,7 +366,7 @@ Los cálculos arrojan que habría que relevar 3 establecimientos del estrato "Ho
 
 La muestra final de establecimientos quedaría distribuida de la siguiente forma:
 
-```{r casos_a_realizar, echo=FALSE, fig.cap="" }
+```{r casos-a-realizar, echo=FALSE, fig.cap="Casos a realizar" }
 knitr::include_graphics('imagenes/tabla_2C.jpg')
 ```
 
@@ -396,7 +396,7 @@ El paso siguiente es, dentro de cada estrato, elegir aleatoriamente un número (
 
 En esta instancia se está en condiciones de realizar la selección sistemática de los establecimientos a ser relevados, tal como se muestra a continuación.
 
-```{r muestra_interior, echo=FALSE, fig.cap="Selección de las muestras al interior de cada estrato" }
+```{r muestra-interior, echo=FALSE, fig.cap="Selección de las muestras al interior de cada estrato" }
 knitr::include_graphics('imagenes/tabla_3.jpg')
 ```
 
@@ -406,7 +406,7 @@ En el estrato "Hoteles 3 estrellas, Apart hotel y Boutique, menos de 200 plazas"
 
 Finalmente, los establecimientos que componen la muestra son:
 
-```{r muestra_final, echo=FALSE, fig.cap="Muestra final de establecimientos" }
+```{r muestra-final, echo=FALSE, fig.cap="Muestra final de establecimientos" }
 knitr::include_graphics('imagenes/tabla_4.jpg')
 ```
 
@@ -460,7 +460,7 @@ La variable **"cantidad de nuevos viajeros alojados (o cantidad de viajeros ingr
 
 En caso de incorporarse a la medición la variable **"lugar de residencia habitual",** debajo se propone una clasificación posible, con un nivel de desagregación de máxima, que cada jurisdicción acotará (o no) atendiendo a los objetivos propios de investigación y a la duración del cuestionario.
 
-```{r residencia_habitual, echo=FALSE, fig.cap="Lugar de residencia habitual" }
+```{r residencia-habitual, echo=FALSE, fig.cap="Lugar de residencia habitual" }
 knitr::include_graphics('imagenes/figura_2.jpg')
 ```
 
@@ -470,11 +470,11 @@ knitr::include_graphics('imagenes/figura_2_1.jpg')
 
 \
 
-```{r no_residentes, echo=FALSE, fig.cap="Lugar de residencia habitual. No residentes de Argentina" }
+```{r no-residentes, echo=FALSE, fig.cap="Lugar de residencia habitual. No residentes de Argentina" }
 knitr::include_graphics('imagenes/figura_2_2.jpg')
 ```
 
-```{r america_latina, echo=FALSE, fig.cap="Lugar de residencia habitual. No residentes de Argentina. América" }
+```{r america-latina, echo=FALSE, fig.cap="Lugar de residencia habitual. No residentes de Argentina. América" }
 knitr::include_graphics('imagenes/figura_2_2_1.jpg')
 ```
 
@@ -500,15 +500,15 @@ knitr::include_graphics('imagenes/tabla_5.jpg')
 
 Sin perder de vista las particularidades provinciales/departamentales/municipales que encierra la definición de cada clase de establecimiento, producto de las normativas vigentes en cada jurisdicción, en este apartado se planteará una propuesta mínima de clasificación de los mismos. La misma es empleada en los padrones del MINTURDEP y puede ser útil para establecer equivalencias entre las diferentes definiciones adoptadas en cada jurisdicción.
 
-```{r tipos_alojamientos, echo=FALSE, fig.cap="Tipos de alojamientos turísticos" }
+```{r tipos-alojamientos, echo=FALSE, fig.cap="Tipos de alojamientos turísticos" }
 knitr::include_graphics('imagenes/figura_3.jpg')
 ```
 
-```{r establecimientos_hoteleros, echo=FALSE, fig.cap="Tipos de alojamientos turísticos. Establecimientos hoteleros" }
+```{r establecimientos-hoteleros, echo=FALSE, fig.cap="Tipos de alojamientos turísticos. Establecimientos hoteleros" }
 knitr::include_graphics('imagenes/figura_3_1.jpg')
 ```
 
-```{r establecimientos_para_hoteleros, echo=FALSE, fig.cap="Tipos de alojamientos turísticos. Establecimientos para-hoteleros" }
+```{r establecimientos-para-hoteleros, echo=FALSE, fig.cap="Tipos de alojamientos turísticos. Establecimientos para-hoteleros" }
 knitr::include_graphics('imagenes/figura_3_2.jpg')
 ```
 
@@ -564,7 +564,7 @@ Ahora bien, una vez relevados los datos de los días martes y sábados, ¿cómo 
 
 Si se expanden los datos del martes al resto de los días del grupo A, así como los datos del sábado al viernes, se obtiene lo siguiente:
 
-```{r grupo_a_b, echo=FALSE, fig.cap="Tabla de Grupos" }
+```{r grupo-a-b, echo=FALSE, fig.cap="Tabla de Grupos" }
 knitr::include_graphics('imagenes/tabla_5a.jpg')
 ```
 
@@ -580,7 +580,7 @@ A su vez, en Argentina, no sólo se le pregunta la cantidad de plazas y habitaci
 
 Además de los aspectos desarrollados previamente, otro punto importante en la instancia de planificación del trabajo de campo es la evaluación de cuál será la **forma de relevamiento adecuada (telefónica, mediante entrevista personal**, **auto-administrada)**, teniendo en cuenta los objetivos, las dificultades propias del relevamiento, el tipo de estudio (censal o muestral), la celeridad con que se necesitan los resultados, los recursos humanos disponibles, la frecuencia de relevamiento, el período de referencia de los datos relevados, etc.
 
-En la Tabla 6 se presentan las ventajas, limitaciones y requerimientos de cada forma de relevamiento. Cabe mencionar que, a pesar de sus pros y contras, todas son alternativas válidas a la hora de ejecutar el trabajo de campo mientras se respeten los criterios metodológicos básicos que deben guiar el trabajo de campo.
+En la Figura 2.19 se presentan las ventajas, limitaciones y requerimientos de cada forma de relevamiento. Cabe mencionar que, a pesar de sus pros y contras, todas son alternativas válidas a la hora de ejecutar el trabajo de campo mientras se respeten los criterios metodológicos básicos que deben guiar el trabajo de campo.
 
 ```{r relevamiento, echo=FALSE, fig.cap="Ventajas, limitaciones y requerimientos por forma de relevamiento" }
 knitr::include_graphics('imagenes/tabla_6.jpg')
@@ -606,9 +606,9 @@ La etapa lógica que sigue al trabajo de campo es la **carga de los datos**, que
 
 Por otro lado, como se mencionó en el apartado 1.1, muchas provincias argentinas suelen recopilar datos de estudios de ocupación hotelera y para-hotelera producidos por los municipios. En varios de estos casos, los equipos técnicos de las provincias han diseñado planillas modelo en las que se propone a cada jurisdicción municipal cargar los datos producidos, con el fin de utilizarla para realizar estimaciones propias, ya sea a nivel local o provincial (agregando datos de las localidades relevadas).
 
-A continuación se presenta un modelo de planilla para la carga de los datos, que puede ser utilizada por los municipios y/o provincias, ya sea para producir datos propios o recopilar datos producidos por terceros. Para seguir en la misma línea, se utilizaron algunos de los establecimientos considerados en el ejemplo de estratificación y selección de muestras al interior de cada estrato (apartado 2.5.2.7). Asimismo, se asumió que el relevamiento se realiza los días lunes y miércoles, preguntando el lunes por las plazas ocupadas y plazas disponibles del sábado anterior, y el día miércoles por las plazas ocupadas del martes previo.
+A continuación se presenta un modelo de planilla para la carga de los datos, que puede ser utilizada por los municipios y/o provincias, ya sea para producir datos propios o recopilar datos producidos por terceros. Para seguir en la misma línea, se utilizaron algunos de los establecimientos considerados en el ejemplo de estratificación y selección de muestras al interior de cada estrato (apartado [Ejemplo de estratificación y selección de muestras al interior de cada estrato]). Asimismo, se asumió que el relevamiento se realiza los días lunes y miércoles, preguntando el lunes por las plazas ocupadas y plazas disponibles del sábado anterior, y el día miércoles por las plazas ocupadas del martes previo.
 
-```{r tabla_6a, echo=FALSE, fig.cap="Modelo de planilla para la carga de los datos" }
+```{r tabla-6a, echo=FALSE, fig.cap="Modelo de planilla para la carga de los datos" }
 knitr::include_graphics('imagenes/tabla_6a.jpg')
 ```
 
@@ -684,11 +684,11 @@ Nuevamente, si bien su función es doble, esto no significa que haya que calcula
 
 Cabe mencionar que los procedimientos para el cálculo de ponderadores presentados son aplicables a muestras seleccionadas con las técnicas MAS o MSYS, en las cuales cada uno de los elementos tiene idéntica probabilidad de selección.
 
-Para afianzar las ideas desarrolladas en este apartado, a continuación se describirá el proceso de construcción de factores de expansión para las muestras seleccionadas en el apartado [Ejemplo de estratificación y selección de muestras al interior de cada estrato]
+Para afianzar las ideas desarrolladas en este apartado, a continuación se describirá el proceso de construcción de factores de expansión para las muestras seleccionadas en el apartado [Trabajo de campo]
 
 Recuérdese que la muestra final seleccionada fue:
 
-```{r tabla_7a, echo=FALSE, fig.cap="Muestra final" }
+```{r tabla-7a, echo=FALSE, fig.cap="Muestra final" }
 knitr::include_graphics('imagenes/tabla_7a.jpg')
 ```
 
@@ -724,7 +724,7 @@ La variable que se utilizará para el cálculo de los factores de expansión de 
 
 Como se ve, en el estrato "Hoteles 1 y 2 estrellas, menos de 200 plazas" el ponderador tiene un valor de 2,46638. Si a las plazas de cada establecimiento seleccionado en la muestra (de este estrato) se las multiplica por este valor, y luego se las suma, se obtiene eltotal de plazas del estrato: 587.Lo mismo ocurre con los otros estratos. Para que se comprenda gráficamente esta idea, en la tabla que sigue se realiza la operación mencionada para cada estrato.
 
-```{r tabla_7, echo=FALSE, fig.cap="" }
+```{r tabla7A, echo=FALSE, fig.cap="Ponderadores" }
 knitr::include_graphics('imagenes/tabla_7b.jpg')
 ```
 
@@ -760,33 +760,33 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 **"Cantidad de plazas ocupadas semana 1-dato expandido (e)"**: se obtiene multiplicando la cantidad de plazas ocupadas de cada establecimiento por el ponderador del estrato.
 
-```{r 1_2_estrellas, echo=FALSE, fig.cap="Hoteles 1 y 2 estrellas, menos de 200 plazas" }
+```{r 1-2-estrellas, echo=FALSE, fig.cap="Hoteles 1 y 2 estrellas, menos de 200 plazas" }
 knitr::include_graphics('imagenes/hoteles1y2_estrellas_menos_de_200_plazas.jpg')
 ```
 
-```{r 3_estrellas, echo=FALSE, fig.cap="Hoteles 3 estrellas,  Apart hotel y Boutique, menos de 200 plazas" }
+```{r 3-estrellas, echo=FALSE, fig.cap="Hoteles 3 estrellas,  Apart hotel y Boutique, menos de 200 plazas" }
 knitr::include_graphics('imagenes/hoteles3_estrellas_apart_boutique_menos_200_plazas.jpg')
 ```
 
-```{r 3_estrellas_mas_200, echo=FALSE, fig.cap="Hoteles 3 estrellas,  Apart hotel y Boutique, más de 200 plazas" }
+```{r 3-estrellas-mas200, echo=FALSE, fig.cap="Hoteles 3 estrellas,  Apart hotel y Boutique, más de 200 plazas" }
 knitr::include_graphics('imagenes/hoteles3_estrellas_apart_boutique_mas_200_plazas.jpg')
 ```
 
-```{r 4_5_estrellas_menos_200, echo=FALSE, fig.cap="Hoteles 4 y 5 estrellas, menos de 200 plazas" }
+```{r 4-5-estrellas-menos200, echo=FALSE, fig.cap="Hoteles 4 y 5 estrellas, menos de 200 plazas" }
 knitr::include_graphics('imagenes/hoteles4_5_estrellas_menos_200_plazas.jpg')
 ```
 
-```{r 4_5_estrellas_mas_200, echo=FALSE, fig.cap="Hoteles 4 y 5 estrellas, más de 200 plazas" }
+```{r 4-5-estrellas-mas200, echo=FALSE, fig.cap="Hoteles 4 y 5 estrellas, más de 200 plazas" }
 knitr::include_graphics('imagenes/hoteles4_5_estrellas_mas_200_plazas.jpg')
 ```
 
-```{r para_hoteleros, echo=FALSE, fig.cap="Establecimientos parahoteleros" }
+```{r para-hoteleros, echo=FALSE, fig.cap="Establecimientos parahoteleros" }
 knitr::include_graphics('imagenes/establecimientos_parahoteleros.jpg')
 ```
 
 Luego de haber realizado los cálculos previos por estrato, se procede a estimar los indicadores para el total de la Localidad Y.
 
-```{r total_localodad_y, echo=FALSE, fig.cap="." }
+```{r total-localodad-y, echo=FALSE, fig.cap="Total localidad" }
 knitr::include_graphics('imagenes/figuras_parte123_01.jpg')
 ```
 
