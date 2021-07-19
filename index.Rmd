@@ -44,4 +44,6 @@ En el **Capítulo** \@ref(guiaencuesta) se propone una secuencia lógica de paso
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
+
+knitr::opts_chunk$set(out.width = '80%', fig.align = 'center')
 ```
