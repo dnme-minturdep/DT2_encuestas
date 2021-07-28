@@ -32,7 +32,7 @@
   
 <link rel="prev" href="encuesta.html"/>
 
-<script src="libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -376,7 +376,7 @@
 <p>La provincia X decide realizar un estudio de ocupación hotelera y parahotelera en algunas localidades que componen el territorio provincial. En cada una de las localidades seleccionadas (consideradas como estratos) el relevamiento será muestral. Se desea obtener resultados tanto para el conjunto de localidades como para cada localidad, sin diferenciar, al interior de estas, por tipo o categoría de los establecimientos.</p>
 <p>En el ejemplo de la Figura <a href="guiaencuesta.html#fig:padronY">2.1</a>, se desarrollará el proceso de estratificación y selección de muestras dentro de cada estrato para una sola localidad en particular (localidad Y), que cuenta con el siguiente padrón de establecimientos:</p>
 <div class="figure" style="text-align: center"><span id="fig:padronY"></span>
-<img src="imagenes/tabla_1.png" alt=" Padrón de establecimientos de la localidad Y" width="80%" />
+<img src="imagenes/tabla_1.png" alt=" Padrón de establecimientos de la localidad Y" width="100%" />
 <p class="caption">
 Figura 2.1:  Padrón de establecimientos de la localidad Y
 </p>
@@ -385,7 +385,7 @@ Figura 2.1:  Padrón de establecimientos de la localidad Y
 <h5><span class="header-section-number">2.5.2.7.1</span> Definición de los estratos en la localidad Y</h5>
 <p>El primer paso, previo al proceso de selección, consiste en la definición de los estratos. Supóngase que la provincia X tiene conocimiento de que en la localidad en cuestión existe un comportamiento diferencial en cuanto a ocupación según la tipología, categoría del establecimiento y cantidad de plazas disponibles. Por tanto, se decide conformar lo siguientes estratos:</p>
 <div class="figure" style="text-align: center"><span id="fig:localidadY"></span>
-<img src="imagenes/figura_1.png" alt=" Estratos de establecimientos de la localidad Y" width="80%" />
+<img src="imagenes/figura_1.png" alt=" Estratos de establecimientos de la localidad Y" width="100%" />
 <p class="caption">
 Figura 2.2:  Estratos de establecimientos de la localidad Y
 </p>
@@ -393,7 +393,7 @@ Figura 2.2:  Estratos de establecimientos de la localidad Y
 <p>Como se puede observar, un primer criterio de estratificación distingue a los establecimientos hoteleros y parahoteleros. Adicionalmente, un segundo criterio de estratificación segmenta a los establecimientos hoteleros en “Hoteles 1 y 2 estrellas,” “Hoteles 3 estrellas, Apart hotel y Boutique” y “Hoteles 4 y 5 estrellas.” Por último, un tercer criterio los diferencia entre si tienen menos o más de 200 plazas, ya que se supone que los establecimientos relativamente grandes (en función de la cantidad de plazas) manifiestan un comportamiento diferencial en relación a los de menor número de plazas. Nótese que el corte en menos o más de 200 plazas es totalmente arbitrario en este ejemplo; en la práctica de cada provincia, el criterio dependerá de las particularidades que manifieste el sector y, obviamente, de los objetivos del estudio.</p>
 <p>Una vez definidos los estratos, se procede a clasificar los establecimientos del padrón en estos diferentes sub-universos.</p>
 <div class="figure" style="text-align: center"><span id="fig:criterios-estratos"></span>
-<img src="imagenes/tabla_2.jpg" alt=" Criterios de estratificación y definición de los estratos" width="80%" />
+<img src="imagenes/tabla_2.jpg" alt=" Criterios de estratificación y definición de los estratos" width="100%" />
 <p class="caption">
 Figura 2.3:  Criterios de estratificación y definición de los estratos
 </p>
@@ -412,13 +412,13 @@ Figura 2.3:  Criterios de estratificación y definición de los estratos
 </ul>
 <p>El equipo técnico de la provincia X tomó la decisión de que la asignación de casos por estrato se ajuste al peso que cada uno tiene sobre el universo total de establecimientos, obviamente restando los alojamientos de 4 y 5 estrellas y el establecimiento de 210 plazas, perteneciente este último al estrato “Hoteles 3 estrellas, Apart hotel y Boutique, más de 200 plazas.” El peso de cada estrato se definirá en función de la cantidad de plazas disponibles del mismo, ya que ésta será una de las principales variables de análisis<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a>. En el siguiente cuadro se realiza el cálculo del peso de cada estrato sobre el total de plazas, luego de haber sustraído las plazas correspondientes a los establecimientos previamente mencionados.</p>
 <div class="figure" style="text-align: center"><span id="fig:cantidad-de-plazas"></span>
-<img src="imagenes/tabla_2A.jpg" alt="Cantidad de plazas" width="80%" />
+<img src="imagenes/tabla_2A.jpg" alt="Cantidad de plazas" width="100%" />
 <p class="caption">
 Figura 2.4: Cantidad de plazas
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:peso-de-estrato"></span>
-<img src="imagenes/tabla_2B.jpg" alt="Peso de estrato" width="80%" />
+<img src="imagenes/tabla_2B.jpg" alt="Peso de estrato" width="100%" />
 <p class="caption">
 Figura 2.5: Peso de estrato
 </p>
@@ -426,7 +426,7 @@ Figura 2.5: Peso de estrato
 <p>Los cálculos arrojan que habría que relevar 3 establecimientos del estrato “Hoteles 1 y 2 estrellas, menos de 200 plazas,” 5 del estrato “Hoteles 3 estrellas, Apart hotel y Boutique, menos de 200 plazas y 4 del estrato”Establecimientos parahoteleros", dando un total de 12 casos. Cabe mencionar que los redondeos suelen dar como resultado un leve aumento del tamaño de muestra originalmente planteado.</p>
 <p>La muestra final de establecimientos quedaría distribuida de la siguiente forma:</p>
 <div class="figure" style="text-align: center"><span id="fig:casos-a-realizar"></span>
-<img src="imagenes/tabla_2C.jpg" alt="Casos a realizar" width="80%" />
+<img src="imagenes/tabla_2C.jpg" alt="Casos a realizar" width="100%" />
 <p class="caption">
 Figura 2.6: Casos a realizar
 </p>
@@ -451,7 +451,7 @@ Figura 2.6: Casos a realizar
 </ul>
 <p>En esta instancia se está en condiciones de realizar la selección sistemática de los establecimientos a ser relevados, tal como se muestra a continuación.</p>
 <div class="figure" style="text-align: center"><span id="fig:muestra-interior"></span>
-<img src="imagenes/tabla_3.jpg" alt="Selección de las muestras al interior de cada estrato" width="80%" />
+<img src="imagenes/tabla_3.jpg" alt="Selección de las muestras al interior de cada estrato" width="100%" />
 <p class="caption">
 Figura 2.7: Selección de las muestras al interior de cada estrato
 </p>
@@ -460,7 +460,7 @@ Figura 2.7: Selección de las muestras al interior de cada estrato
 <p>En el estrato “Hoteles 3 estrellas, Apart hotel y Boutique, menos de 200 plazas,” el último establecimiento seleccionado es el que se encuentra en la posición 3, ya que el inmediatamente anterior fue el 8, y luego de esta posición ya no había más establecimientos, por lo cual fue necesario realizar la selección desde el principio.</p>
 <p>Finalmente, los establecimientos que componen la muestra son:</p>
 <div class="figure" style="text-align: center"><span id="fig:muestra-final"></span>
-<img src="imagenes/tabla_4.jpg" alt="Muestra final de establecimientos" width="80%" />
+<img src="imagenes/tabla_4.jpg" alt="Muestra final de establecimientos" width="100%" />
 <p class="caption">
 Figura 2.8: Muestra final de establecimientos
 </p>
@@ -498,13 +498,13 @@ Figura 2.8: Muestra final de establecimientos
 <p>La variable <strong>“cantidad de nuevos viajeros alojados (o cantidad de viajeros ingresados)”</strong> también resulta útil para realizar una aproximación a la estimación de la cantidad de turistas en el destino. Si se decide medirla, es preciso que se clarifique que lo correcto es registrar la cantidad de <strong>nuevos</strong> viajeros en el período de referencia, y no la cantidad de total viajeros alojados. En efecto, en este último caso, se estaría contando más de una vez al mismo viajero. Si por algún motivo no se pudiese incluir esta pregunta, es posible realizar una estimación de la cantidad de viajeros dividiendo pernoctaciones en determinado período por “estadía promedio.” La información sobre estadía promedio es conveniente obtenerla de otra fuente de información (por ejemplo, encuestas de demanda o perfil del turista), dado que al indagar directamente por la estadía promedio se correría el riesgo de caer en posibles errores de cálculo por parte del respondente (además de mediar su subjetividad).</p>
 <p>En caso de incorporarse a la medición la variable <strong>“lugar de residencia habitual,”</strong> debajo se propone una clasificación posible, con un nivel de desagregación de máxima, que cada jurisdicción acotará (o no) atendiendo a los objetivos propios de investigación y a la duración del cuestionario.</p>
 <div class="figure" style="text-align: center"><span id="fig:residencia-habitual"></span>
-<img src="imagenes/figura_2.jpg" alt="Lugar de residencia habitual" width="80%" />
+<img src="imagenes/figura_2.jpg" alt="Lugar de residencia habitual" width="100%" />
 <p class="caption">
 Figura 2.9: Lugar de residencia habitual
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:residentes"></span>
-<img src="imagenes/figura_2_1.jpg" alt="Lugar de residencia habitual. Residentes de Argentina" width="80%" />
+<img src="imagenes/figura_2_1.jpg" alt="Lugar de residencia habitual. Residentes de Argentina" width="100%" />
 <p class="caption">
 Figura 2.10: Lugar de residencia habitual. Residentes de Argentina
 </p>
@@ -512,19 +512,19 @@ Figura 2.10: Lugar de residencia habitual. Residentes de Argentina
 <p><br />
 </p>
 <div class="figure" style="text-align: center"><span id="fig:no-residentes"></span>
-<img src="imagenes/figura_2_2.jpg" alt="Lugar de residencia habitual. No residentes de Argentina" width="80%" />
+<img src="imagenes/figura_2_2.jpg" alt="Lugar de residencia habitual. No residentes de Argentina" width="100%" />
 <p class="caption">
 Figura 2.11: Lugar de residencia habitual. No residentes de Argentina
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:america-latina"></span>
-<img src="imagenes/figura_2_2_1.jpg" alt="Lugar de residencia habitual. No residentes de Argentina. América" width="80%" />
+<img src="imagenes/figura_2_2_1.jpg" alt="Lugar de residencia habitual. No residentes de Argentina. América" width="100%" />
 <p class="caption">
 Figura 2.12: Lugar de residencia habitual. No residentes de Argentina. América
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:europa"></span>
-<img src="imagenes/figura_2_2_2.jpg" alt="Lugar de residencia habitual. No residentes de Argentina. Europa" width="80%" />
+<img src="imagenes/figura_2_2_2.jpg" alt="Lugar de residencia habitual. No residentes de Argentina. Europa" width="100%" />
 <p class="caption">
 Figura 2.13: Lugar de residencia habitual. No residentes de Argentina. Europa
 </p>
@@ -536,7 +536,7 @@ Figura 2.13: Lugar de residencia habitual. No residentes de Argentina. Europa
 <li>En relación al <strong>empleo</strong>, puede indagarse la cantidad de personas ocupadas en el establecimiento. Más aún, a las personas ocupadas se las podría clasificar tal como se sugiere debajo:</li>
 </ul>
 <div class="figure" style="text-align: center"><span id="fig:ocupados"></span>
-<img src="imagenes/tabla_5.jpg" alt="Categorías ocupacionales utilizadas en la EOH (MINTURDEP-INDEC)" width="80%" />
+<img src="imagenes/tabla_5.jpg" alt="Categorías ocupacionales utilizadas en la EOH (MINTURDEP-INDEC)" width="100%" />
 <p class="caption">
 Figura 2.14: Categorías ocupacionales utilizadas en la EOH (MINTURDEP-INDEC)
 </p>
@@ -550,19 +550,19 @@ Figura 2.14: Categorías ocupacionales utilizadas en la EOH (MINTURDEP-INDEC)
 <h2><span class="header-section-number">2.6</span> Clasificación de los establecimientos de alojamiento turístico</h2>
 <p>Sin perder de vista las particularidades provinciales/departamentales/municipales que encierra la definición de cada clase de establecimiento, producto de las normativas vigentes en cada jurisdicción, en este apartado se planteará una propuesta mínima de clasificación de los mismos. La misma es empleada en los padrones del MINTURDEP y puede ser útil para establecer equivalencias entre las diferentes definiciones adoptadas en cada jurisdicción.</p>
 <div class="figure" style="text-align: center"><span id="fig:tipos-alojamientos"></span>
-<img src="imagenes/figura_3.jpg" alt="Tipos de alojamientos turísticos" width="80%" />
+<img src="imagenes/figura_3.jpg" alt="Tipos de alojamientos turísticos" width="100%" />
 <p class="caption">
 Figura 2.15: Tipos de alojamientos turísticos
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:establecimientos-hoteleros"></span>
-<img src="imagenes/figura_3_1.jpg" alt="Tipos de alojamientos turísticos. Establecimientos hoteleros" width="80%" />
+<img src="imagenes/figura_3_1.jpg" alt="Tipos de alojamientos turísticos. Establecimientos hoteleros" width="100%" />
 <p class="caption">
 Figura 2.16: Tipos de alojamientos turísticos. Establecimientos hoteleros
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:establecimientos-para-hoteleros"></span>
-<img src="imagenes/figura_3_2.jpg" alt="Tipos de alojamientos turísticos. Establecimientos para-hoteleros" width="80%" />
+<img src="imagenes/figura_3_2.jpg" alt="Tipos de alojamientos turísticos. Establecimientos para-hoteleros" width="100%" />
 <p class="caption">
 Figura 2.17: Tipos de alojamientos turísticos. Establecimientos para-hoteleros
 </p>
@@ -607,7 +607,7 @@ Figura 2.17: Tipos de alojamientos turísticos. Establecimientos para-hoteleros
 </ul>
 <p>Si se expanden los datos del martes al resto de los días del grupo A, así como los datos del sábado al viernes, se obtiene lo siguiente:</p>
 <div class="figure" style="text-align: center"><span id="fig:grupo-a-b"></span>
-<img src="imagenes/tabla_5a.jpg" alt="Tabla de Grupos" width="80%" />
+<img src="imagenes/tabla_5a.jpg" alt="Tabla de Grupos" width="100%" />
 <p class="caption">
 Figura 2.18: Tabla de Grupos
 </p>
@@ -623,7 +623,7 @@ Figura 2.18: Tabla de Grupos
 <p>Además de los aspectos desarrollados previamente, otro punto importante en la instancia de planificación del trabajo de campo es la evaluación de cuál será la <strong>forma de relevamiento adecuada (telefónica, mediante entrevista personal</strong>, <strong>auto-administrada)</strong>, teniendo en cuenta los objetivos, las dificultades propias del relevamiento, el tipo de estudio (censal o muestral), la celeridad con que se necesitan los resultados, los recursos humanos disponibles, la frecuencia de relevamiento, el período de referencia de los datos relevados, etc.</p>
 <p>En la Figura 2.19 se presentan las ventajas, limitaciones y requerimientos de cada forma de relevamiento. Cabe mencionar que, a pesar de sus pros y contras, todas son alternativas válidas a la hora de ejecutar el trabajo de campo mientras se respeten los criterios metodológicos básicos que deben guiar el trabajo de campo.</p>
 <div class="figure" style="text-align: center"><span id="fig:relevamiento"></span>
-<img src="imagenes/tabla_6.jpg" alt="Ventajas, limitaciones y requerimientos por forma de relevamiento" width="80%" />
+<img src="imagenes/tabla_6.jpg" alt="Ventajas, limitaciones y requerimientos por forma de relevamiento" width="100%" />
 <p class="caption">
 Figura 2.19: Ventajas, limitaciones y requerimientos por forma de relevamiento
 </p>
@@ -647,7 +647,7 @@ Figura 2.19: Ventajas, limitaciones y requerimientos por forma de relevamiento
 <p>Por otro lado, como se mencionó en el apartado 1.1, muchas provincias argentinas suelen recopilar datos de estudios de ocupación hotelera y para-hotelera producidos por los municipios. En varios de estos casos, los equipos técnicos de las provincias han diseñado planillas modelo en las que se propone a cada jurisdicción municipal cargar los datos producidos, con el fin de utilizarla para realizar estimaciones propias, ya sea a nivel local o provincial (agregando datos de las localidades relevadas).</p>
 <p>A continuación se presenta un modelo de planilla para la carga de los datos, que puede ser utilizada por los municipios y/o provincias, ya sea para producir datos propios o recopilar datos producidos por terceros. Para seguir en la misma línea, se utilizaron algunos de los establecimientos considerados en el ejemplo de estratificación y selección de muestras al interior de cada estrato (apartado <a href="guiaencuesta.html#ejemplo-de-estratificación-y-selección-de-muestras-al-interior-de-cada-estrato">Ejemplo de estratificación y selección de muestras al interior de cada estrato</a>). Asimismo, se asumió que el relevamiento se realiza los días lunes y miércoles, preguntando el lunes por las plazas ocupadas y plazas disponibles del sábado anterior, y el día miércoles por las plazas ocupadas del martes previo.</p>
 <div class="figure" style="text-align: center"><span id="fig:tabla-6a"></span>
-<img src="imagenes/tabla_6a.jpg" alt="Modelo de planilla para la carga de los datos" width="80%" />
+<img src="imagenes/tabla_6a.jpg" alt="Modelo de planilla para la carga de los datos" width="100%" />
 <p class="caption">
 Figura 2.20: Modelo de planilla para la carga de los datos
 </p>
@@ -698,7 +698,7 @@ Figura 2.20: Modelo de planilla para la carga de los datos
 <p>Para afianzar las ideas desarrolladas en este apartado, a continuación se describirá el proceso de construcción de factores de expansión para las muestras seleccionadas en el apartado <a href="guiaencuesta.html#trabajo-de-campo">Trabajo de campo</a></p>
 <p>Recuérdese que la muestra final seleccionada fue:</p>
 <div class="figure" style="text-align: center"><span id="fig:tabla-7a"></span>
-<img src="imagenes/tabla_7a.jpg" alt="Muestra final" width="80%" />
+<img src="imagenes/tabla_7a.jpg" alt="Muestra final" width="100%" />
 <p class="caption">
 Figura 2.21: Muestra final
 </p>
@@ -724,7 +724,7 @@ Figura 2.21: Muestra final
 </ul>
 <p>Como se ve, en el estrato “Hoteles 1 y 2 estrellas, menos de 200 plazas” el ponderador tiene un valor de 2,46638. Si a las plazas de cada establecimiento seleccionado en la muestra (de este estrato) se las multiplica por este valor, y luego se las suma, se obtiene eltotal de plazas del estrato: 587.Lo mismo ocurre con los otros estratos. Para que se comprenda gráficamente esta idea, en la tabla que sigue se realiza la operación mencionada para cada estrato.</p>
 <div class="figure" style="text-align: center"><span id="fig:tabla7A"></span>
-<img src="imagenes/tabla_7b.jpg" alt="Ponderadores" width="80%" />
+<img src="imagenes/tabla_7b.jpg" alt="Ponderadores" width="100%" />
 <p class="caption">
 Figura 2.22: Ponderadores
 </p>
@@ -737,7 +737,7 @@ Figura 2.22: Ponderadores
 <p>A continuación se presentan algunas alternativas de cálculo de los principales indicadores que usualmente se pretenden estimar a través de los relevamientos de alojamientos turísticos.</p>
 <p>Cabe indicar que por razones de simplicidad, los “totales” que se mencionan surgirían, si se tratara de un estudio muestral, de los resultados ya expandidos.</p>
 <div class="figure" style="text-align: center"><span id="fig:indicadores"></span>
-<img src="imagenes/tabla_8.jpg" alt="Indicadores, información necesaria para su construcción y procedimiento de estimación" width="80%" />
+<img src="imagenes/tabla_8.jpg" alt="Indicadores, información necesaria para su construcción y procedimiento de estimación" width="100%" />
 <p class="caption">
 Figura 2.23: Indicadores, información necesaria para su construcción y procedimiento de estimación
 </p>
@@ -754,44 +754,44 @@ Figura 2.23: Indicadores, información necesaria para su construcción y procedi
 </ul>
 <p><strong>“Cantidad de plazas ocupadas semana 1-dato expandido (e)”</strong>: se obtiene multiplicando la cantidad de plazas ocupadas de cada establecimiento por el ponderador del estrato.</p>
 <div class="figure" style="text-align: center"><span id="fig:1-2-estrellas"></span>
-<img src="imagenes/hoteles1y2_estrellas_menos_de_200_plazas.jpg" alt="Hoteles 1 y 2 estrellas, menos de 200 plazas" width="80%" />
+<img src="imagenes/hoteles1y2_estrellas_menos_de_200_plazas.jpg" alt="Hoteles 1 y 2 estrellas, menos de 200 plazas" width="100%" />
 <p class="caption">
 Figura 2.24: Hoteles 1 y 2 estrellas, menos de 200 plazas
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:3-estrellas"></span>
-<img src="imagenes/hoteles3_estrellas_apart_boutique_menos_200_plazas.jpg" alt="Hoteles 3 estrellas,  Apart hotel y Boutique, menos de 200 plazas" width="80%" />
+<img src="imagenes/hoteles3_estrellas_apart_boutique_menos_200_plazas.jpg" alt="Hoteles 3 estrellas,  Apart hotel y Boutique, menos de 200 plazas" width="100%" />
 <p class="caption">
 Figura 2.25: Hoteles 3 estrellas, Apart hotel y Boutique, menos de 200 plazas
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:3-estrellas-mas200"></span>
-<img src="imagenes/hoteles3_estrellas_apart_boutique_mas_200_plazas.jpg" alt="Hoteles 3 estrellas,  Apart hotel y Boutique, más de 200 plazas" width="80%" />
+<img src="imagenes/hoteles3_estrellas_apart_boutique_mas_200_plazas.jpg" alt="Hoteles 3 estrellas,  Apart hotel y Boutique, más de 200 plazas" width="100%" />
 <p class="caption">
 Figura 2.26: Hoteles 3 estrellas, Apart hotel y Boutique, más de 200 plazas
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:4-5-estrellas-menos200"></span>
-<img src="imagenes/hoteles4_5_estrellas_menos_200_plazas.jpg" alt="Hoteles 4 y 5 estrellas, menos de 200 plazas" width="80%" />
+<img src="imagenes/hoteles4_5_estrellas_menos_200_plazas.jpg" alt="Hoteles 4 y 5 estrellas, menos de 200 plazas" width="100%" />
 <p class="caption">
 Figura 2.27: Hoteles 4 y 5 estrellas, menos de 200 plazas
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:4-5-estrellas-mas200"></span>
-<img src="imagenes/hoteles4_5_estrellas_mas_200_plazas.jpg" alt="Hoteles 4 y 5 estrellas, más de 200 plazas" width="80%" />
+<img src="imagenes/hoteles4_5_estrellas_mas_200_plazas.jpg" alt="Hoteles 4 y 5 estrellas, más de 200 plazas" width="100%" />
 <p class="caption">
 Figura 2.28: Hoteles 4 y 5 estrellas, más de 200 plazas
 </p>
 </div>
 <div class="figure" style="text-align: center"><span id="fig:para-hoteleros"></span>
-<img src="imagenes/establecimientos_parahoteleros.jpg" alt="Establecimientos parahoteleros" width="80%" />
+<img src="imagenes/establecimientos_parahoteleros.jpg" alt="Establecimientos parahoteleros" width="100%" />
 <p class="caption">
 Figura 2.29: Establecimientos parahoteleros
 </p>
 </div>
 <p>Luego de haber realizado los cálculos previos por estrato, se procede a estimar los indicadores para el total de la Localidad Y.</p>
 <div class="figure" style="text-align: center"><span id="fig:total-localodad-y"></span>
-<img src="imagenes/figuras_parte123_01.jpg" alt="Total localidad" width="80%" />
+<img src="imagenes/figuras_parte123_01.jpg" alt="Total localidad" width="100%" />
 <p class="caption">
 Figura 2.30: Total localidad
 </p>

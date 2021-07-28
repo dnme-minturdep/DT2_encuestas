@@ -4,14 +4,13 @@
 %
 \documentclass[
 ]{book}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -42,7 +41,7 @@
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -103,7 +102,7 @@
 \makeatother
 \subtitle{Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos}
 \author{Dirección Nacional de Mercados y Estadísticas - Subsecretaría de Desarrollo Estratégico}
-\date{19 de julio de 2021}
+\date{28 de July de 2021}
 
 \begin{document}
 \maketitle
@@ -122,7 +121,7 @@
 \chapter*{Presentación}\label{presentaciuxf3n}}
 \addcontentsline{toc}{chapter}{Presentación}
 
-El presente documento, \textbf{Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos}, se enmarca en el proyecto de \emph{Armonización de las Estadísticas de Turismo en las Provincias} de la \href{http://datos.yvera.gob.ar/}{Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes}. El objetivo general de este proyecto es contribuir con propuestas metodológicas para los sistemas de estadísticas de turismo provinciales que orienten a producir indicadores provinciales básicos y comparables.
+El presente documento, \textbf{Propuestas metodológicas para las encuestas de ocupación en alojamientos turísticos}, se enmarca en el proyecto de \href{https://armonizacion.yvera.tur.ar//}{Armonización de las Estadísticas de Turismo en las Provincias} de la \textbf{Dirección Nacional de Mercados y Estadística de la Subsecretaría de Desarrollo Estratégico del Ministerio de Turismo y Deportes}. El objetivo general de este proyecto es contribuir con propuestas metodológicas para los sistemas de estadísticas de turismo provinciales que orienten a producir indicadores provinciales básicos y comparables.
 
 Además de este, se encuentran disponibles una serie de documentos técnicos que abordan otras problemáticas vinculadas a la producción de estadística de turismo:
 
@@ -592,7 +591,7 @@ En el ejemplo de la Figura \ref{fig:padronY}, se desarrollará el proceso de est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_1} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_1} 
 
 }
 
@@ -606,7 +605,7 @@ El primer paso, previo al proceso de selección, consiste en la definición de l
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_1} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_1} 
 
 }
 
@@ -619,7 +618,7 @@ Una vez definidos los estratos, se procede a clasificar los establecimientos del
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_2} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_2} 
 
 }
 
@@ -650,7 +649,7 @@ El equipo técnico de la provincia X tomó la decisión de que la asignación de
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_2A} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_2A} 
 
 }
 
@@ -659,7 +658,7 @@ El equipo técnico de la provincia X tomó la decisión de que la asignación de
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_2B} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_2B} 
 
 }
 
@@ -672,7 +671,7 @@ La muestra final de establecimientos quedaría distribuida de la siguiente forma
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_2C} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_2C} 
 
 }
 
@@ -714,7 +713,7 @@ En esta instancia se está en condiciones de realizar la selección sistemática
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_3} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_3} 
 
 }
 
@@ -729,7 +728,7 @@ Finalmente, los establecimientos que componen la muestra son:
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_4} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_4} 
 
 }
 
@@ -792,7 +791,7 @@ En caso de incorporarse a la medición la variable \textbf{``lugar de residencia
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_2} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_2} 
 
 }
 
@@ -801,7 +800,7 @@ En caso de incorporarse a la medición la variable \textbf{``lugar de residencia
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_2_1} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_2_1} 
 
 }
 
@@ -812,7 +811,7 @@ En caso de incorporarse a la medición la variable \textbf{``lugar de residencia
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_2_2} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_2_2} 
 
 }
 
@@ -821,7 +820,7 @@ En caso de incorporarse a la medición la variable \textbf{``lugar de residencia
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_2_2_1} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_2_2_1} 
 
 }
 
@@ -830,7 +829,7 @@ En caso de incorporarse a la medición la variable \textbf{``lugar de residencia
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_2_2_2} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_2_2_2} 
 
 }
 
@@ -851,7 +850,7 @@ Para finalizar, existen otras variables que pueden ser relevadas mediante un ope
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_5} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_5} 
 
 }
 
@@ -867,7 +866,7 @@ Sin perder de vista las particularidades provinciales/departamentales/municipale
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_3} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_3} 
 
 }
 
@@ -876,7 +875,7 @@ Sin perder de vista las particularidades provinciales/departamentales/municipale
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_3_1} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_3_1} 
 
 }
 
@@ -885,7 +884,7 @@ Sin perder de vista las particularidades provinciales/departamentales/municipale
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figura_3_2} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figura_3_2} 
 
 }
 
@@ -965,7 +964,7 @@ Si se expanden los datos del martes al resto de los días del grupo A, así como
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_5a} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_5a} 
 
 }
 
@@ -987,7 +986,7 @@ En la Figura 2.19 se presentan las ventajas, limitaciones y requerimientos de ca
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_6} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_6} 
 
 }
 
@@ -1023,7 +1022,7 @@ A continuación se presenta un modelo de planilla para la carga de los datos, qu
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_6a} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_6a} 
 
 }
 
@@ -1115,7 +1114,7 @@ Recuérdese que la muestra final seleccionada fue:
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_7a} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_7a} 
 
 }
 
@@ -1162,7 +1161,7 @@ Como se ve, en el estrato ``Hoteles 1 y 2 estrellas, menos de 200 plazas'' el po
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_7b} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_7b} 
 
 }
 
@@ -1180,7 +1179,7 @@ Cabe indicar que por razones de simplicidad, los ``totales'' que se mencionan su
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/tabla_8} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/tabla_8} 
 
 }
 
@@ -1210,7 +1209,7 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/hoteles1y2_estrellas_menos_de_200_plazas} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/hoteles1y2_estrellas_menos_de_200_plazas} 
 
 }
 
@@ -1219,7 +1218,7 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/hoteles3_estrellas_apart_boutique_menos_200_plazas} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/hoteles3_estrellas_apart_boutique_menos_200_plazas} 
 
 }
 
@@ -1228,7 +1227,7 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/hoteles3_estrellas_apart_boutique_mas_200_plazas} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/hoteles3_estrellas_apart_boutique_mas_200_plazas} 
 
 }
 
@@ -1237,7 +1236,7 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/hoteles4_5_estrellas_menos_200_plazas} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/hoteles4_5_estrellas_menos_200_plazas} 
 
 }
 
@@ -1246,7 +1245,7 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/hoteles4_5_estrellas_mas_200_plazas} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/hoteles4_5_estrellas_mas_200_plazas} 
 
 }
 
@@ -1255,7 +1254,7 @@ En cada una de las tablas que siguen, en donde se realizan los cálculos por est
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/establecimientos_parahoteleros} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/establecimientos_parahoteleros} 
 
 }
 
@@ -1266,7 +1265,7 @@ Luego de haber realizado los cálculos previos por estrato, se procede a estimar
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{imagenes/figuras_parte123_01} 
+{\centering \includegraphics[width=1\linewidth]{imagenes/figuras_parte123_01} 
 
 }
 
