@@ -302,7 +302,7 @@ b)  reducir la dispersión general de la población en torno a la variable de es
 
 c)  lograr mayor precisión en los resultados;
 
-d)  reducir el tamaño de muestra,
+d)  reducir el tamaño de muestra.
 
 Finalmente, si uno de los propósitos del estudio fuese analizar los resultados en sub-dominios de la población (p.e. si interesara conocer, además del total provincial de hoteles, los niveles de ocupación para la capital provincial por un lado, y para el resto de la provincia por otro, y dentro de cada uno de ellos, las diferencias entre los hoteles de alta categoría (4 y 5 estrellas) y el resto) es importante tener en consideración que estos sub-dominios deben surgir del agrupamiento de uno o más estratos, y que la cantidad de casos permita realizar estimaciones con un margen de error estadístico aceptable para los objetivos de la investigación).
 
