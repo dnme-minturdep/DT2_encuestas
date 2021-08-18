@@ -12,7 +12,7 @@ Los objetivos, a su vez, se subdividen en objetivos **generales** y **específic
 
 -   conocer la cantidad de viajeros alojados en establecimientos hoteleros y para-hoteleros;
 
--   cuantificar la cantidad de pernoctes registrados en establecimientos hoteleros y para-hoteleros,
+-   cuantificar la cantidad de pernoctes registrados en establecimientos hoteleros y para-hoteleros;
 
 -   etc.
 
