@@ -12,7 +12,7 @@ Los objetivos, a su vez, se subdividen en objetivos **generales** y **específic
 
 -   conocer la cantidad de viajeros alojados en establecimientos hoteleros y para-hoteleros;
 
--   cuantificar la cantidad de pernoctes registrados en establecimientos hoteleros y para-hoteleros,
+-   cuantificar la cantidad de pernoctes registrados en establecimientos hoteleros y para-hoteleros;
 
 -   etc.
 
@@ -302,7 +302,7 @@ b)  reducir la dispersión general de la población en torno a la variable de es
 
 c)  lograr mayor precisión en los resultados;
 
-d)  reducir el tamaño de muestra,
+d)  reducir el tamaño de muestra.
 
 Finalmente, si uno de los propósitos del estudio fuese analizar los resultados en sub-dominios de la población (p.e. si interesara conocer, además del total provincial de hoteles, los niveles de ocupación para la capital provincial por un lado, y para el resto de la provincia por otro, y dentro de cada uno de ellos, las diferencias entre los hoteles de alta categoría (4 y 5 estrellas) y el resto) es importante tener en consideración que estos sub-dominios deben surgir del agrupamiento de uno o más estratos, y que la cantidad de casos permita realizar estimaciones con un margen de error estadístico aceptable para los objetivos de la investigación).
 
@@ -340,7 +340,7 @@ Como se mencionó en párrafos anteriores, para determinar el tamaño de muestra
 
 En primer lugar, se decide que los hoteles de 4 y 5 estrellas deben tener inclusión forzosa dentro de la muestra total, es decir se relevarán todos los establecimientos de estas categorías independientemente de su cantidad de plazas, debido al bajo peso relativo que presentan en el total de establecimientos y al comportamiento diferencial que tiene este segmento respecto al resto del universo. Por tanto, al total de 15 establecimientos de la muestra final se le deberán restar los 3 establecimientos que forman parte de los estratos "Hoteles 4 y 5 estrellas, menos de 200 plazas" y "Hoteles 4 y 5 estrellas, más de 200 plazas", quedando un total de 12 establecimientos que deben ser distribuidos entre los restantes estratos.
 
-sPor otro lado, siguiendo el mismo razonamiento que en el caso previo, también se toma la decisión de que los establecimientos de 200 o más plazas deben tener inclusión forzosa en la muestra total. Por tanto, el establecimiento R, que dispone de 210 plazas, deberá necesariamente formar parte de la muestra. Los establecimientos Ñ y O ya fueron incluidos forzosamente por tener categoría 4 y 5 estrellas, respectivamente, por lo cual no es necesario repetir el proceso de selección. En esta instancia, quedan 11 establecimientos a ser repartidos entre los diferentes estratos.
+Por otro lado, siguiendo el mismo razonamiento que en el caso previo, también se toma la decisión de que los establecimientos de 200 o más plazas deben tener inclusión forzosa en la muestra total. Por tanto, el establecimiento R, que dispone de 210 plazas, deberá necesariamente formar parte de la muestra. Los establecimientos Ñ y O ya fueron incluidos forzosamente por tener categoría 4 y 5 estrellas, respectivamente, por lo cual no es necesario repetir el proceso de selección. En esta instancia, quedan 11 establecimientos a ser repartidos entre los diferentes estratos.
 
 El siguiente paso consiste en calcular el tamaño de las muestras de los siguientes estratos:
 
