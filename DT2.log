@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  20 AUG 2021 17:23
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  25 AUG 2021 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,8 +1089,8 @@ LaTeX Info: Redefining \% on input line 506.
 LaTeX Info: Redefining \. on input line 525.
 LaTeX Info: Redefining \% on input line 525.
 [30]
-LaTeX Info: Redefining \. on input line 541.
-LaTeX Info: Redefining \% on input line 541.
+LaTeX Info: Redefining \. on input line 543.
+LaTeX Info: Redefining \% on input line 543.
 [31]
 LaTeX Info: Redefining \. on input line 564.
 LaTeX Info: Redefining \% on input line 564.
@@ -1143,12 +1143,15 @@ LaTeX Info: Redefining \% on input line 740.
 LaTeX Info: Redefining \. on input line 740.
 LaTeX Info: Redefining \% on input line 740.
 [41]
-LaTeX Info: Redefining \. on input line 756.
-LaTeX Info: Redefining \% on input line 756.
+LaTeX Info: Redefining \. on input line 751.
+LaTeX Info: Redefining \% on input line 751.
 [42]
 LaTeX Info: Redefining \. on input line 779.
 LaTeX Info: Redefining \% on input line 779.
 [43]
+LaTeX Info: Redefining \. on input line 792.
+LaTeX Info: Redefining \% on input line 792.
+[44]
 File: imagenes/figura_2.jpg Graphic file (type bmp)
 <imagenes/figura_2.jpg>
 File: imagenes/figura_2_1.jpg Graphic file (type bmp)
@@ -1166,16 +1169,7 @@ File: imagenes/figura_2_2_2.jpg Graphic file (type bmp)
 <imagenes/figura_2_2_2.jpg>
 LaTeX Info: Redefining \. on input line 841.
 LaTeX Info: Redefining \% on input line 841.
-[44]
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
 [45]
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
-[46]
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
-[47]
 File: imagenes/tabla_5.jpg Graphic file (type bmp)
 <imagenes/tabla_5.jpg>
 
@@ -1189,6 +1183,12 @@ Overfull \hbox (6.64pt too wide) in paragraph at lines 866--867
 entales/municipales
  []
 
+LaTeX Info: Redefining \. on input line 867.
+LaTeX Info: Redefining \% on input line 867.
+[46]
+LaTeX Info: Redefining \. on input line 867.
+LaTeX Info: Redefining \% on input line 867.
+[47]
 LaTeX Info: Redefining \. on input line 867.
 LaTeX Info: Redefining \% on input line 867.
 [48]
@@ -1302,10 +1302,10 @@ Package rerunfilecheck Info: File `DT2.out' has not changed.
 (rerunfilecheck)             Checksum: 44AAAB0E6D3B73977112ABD4B01A673E;3507.
  ) 
 Here is how much of TeX's memory you used:
- 20114 strings out of 478461
- 370697 string characters out of 5856973
+ 20113 strings out of 478461
+ 370682 string characters out of 5856973
  860867 words of memory out of 5000000
- 40107 multiletter control sequences out of 15000+600000
+ 40106 multiletter control sequences out of 15000+600000
  407433 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,18n,120p,2584b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
