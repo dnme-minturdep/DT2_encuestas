@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.9)  20 SEP 2021 18:37
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.9.21)  17 DEC 2021 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **DT2.tex
 (./DT2.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf
+L3 programming layer <2021-08-27> (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf
 -dist/tex/latex/base/book.cls
 Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
@@ -131,7 +131,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
 de-math.sty
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-07-12 L3 programming layer (loader) 
+Package: expl3 2021-08-27 L3 programming layer (loader) 
 
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
@@ -155,11 +155,11 @@ TeX
 
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
 xparse.sty
-Package: xparse 2021-08-04 L3 Experimental document command parser
+Package: xparse 2021-08-27 L3 Experimental document command parser
 )
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-08-04 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 )
 (c:/Users/Menta/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 sty
@@ -991,58 +991,58 @@ LaTeX Info: Redefining \% on input line 122.
 [4
 
 ] [5]
-LaTeX Info: Redefining \. on input line 160.
-LaTeX Info: Redefining \% on input line 160.
+LaTeX Info: Redefining \. on input line 162.
+LaTeX Info: Redefining \% on input line 162.
 [6]
 Capítulo 1.
 [7
 
 ]
-LaTeX Info: Redefining \. on input line 196.
-LaTeX Info: Redefining \% on input line 196.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
 [8]
-LaTeX Info: Redefining \. on input line 214.
-LaTeX Info: Redefining \% on input line 214.
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
 [9]
-LaTeX Info: Redefining \. on input line 220.
-LaTeX Info: Redefining \% on input line 220.
+LaTeX Info: Redefining \. on input line 222.
+LaTeX Info: Redefining \% on input line 222.
 [10]
-LaTeX Info: Redefining \. on input line 224.
-LaTeX Info: Redefining \% on input line 224.
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
 [11]
-LaTeX Info: Redefining \. on input line 230.
-LaTeX Info: Redefining \% on input line 230.
+LaTeX Info: Redefining \. on input line 232.
+LaTeX Info: Redefining \% on input line 232.
 [12]
-LaTeX Info: Redefining \. on input line 240.
-LaTeX Info: Redefining \% on input line 240.
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
 [13]
-LaTeX Info: Redefining \. on input line 240.
-LaTeX Info: Redefining \% on input line 240.
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
 [14
 
 ]
 Capítulo 2.
 [15]
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
+LaTeX Info: Redefining \. on input line 277.
+LaTeX Info: Redefining \% on input line 277.
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
 
  []
 
-LaTeX Info: Redefining \. on input line 301.
-LaTeX Info: Redefining \% on input line 301.
+LaTeX Info: Redefining \. on input line 303.
+LaTeX Info: Redefining \% on input line 303.
 [17]
-LaTeX Info: Redefining \. on input line 318.
-LaTeX Info: Redefining \% on input line 318.
+LaTeX Info: Redefining \. on input line 320.
+LaTeX Info: Redefining \% on input line 320.
 [18]
-LaTeX Info: Redefining \. on input line 333.
-LaTeX Info: Redefining \% on input line 333.
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
 
 Overfull \hbox (12.26114pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.4.  PADRÓN DE ESTABLECIMIENTOS DE ALOJAMIENTO TURÍSTICOS \TU/
@@ -1050,11 +1050,11 @@ lmr/m/n/10 19
  []
 
 [19]
-LaTeX Info: Redefining \. on input line 343.
-LaTeX Info: Redefining \% on input line 343.
+LaTeX Info: Redefining \. on input line 345.
+LaTeX Info: Redefining \% on input line 345.
 [20]
-LaTeX Info: Redefining \. on input line 354.
-LaTeX Info: Redefining \% on input line 354.
+LaTeX Info: Redefining \. on input line 356.
+LaTeX Info: Redefining \% on input line 356.
 
 Overfull \hbox (12.26114pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.4.  PADRÓN DE ESTABLECIMIENTOS DE ALOJAMIENTO TURÍSTICOS \TU/
@@ -1062,56 +1062,56 @@ lmr/m/n/10 21
  []
 
 [21]
-LaTeX Info: Redefining \. on input line 371.
-LaTeX Info: Redefining \% on input line 371.
+LaTeX Info: Redefining \. on input line 373.
+LaTeX Info: Redefining \% on input line 373.
 [22]
-LaTeX Info: Redefining \. on input line 386.
-LaTeX Info: Redefining \% on input line 386.
+LaTeX Info: Redefining \. on input line 388.
+LaTeX Info: Redefining \% on input line 388.
 [23]
-LaTeX Info: Redefining \. on input line 413.
-LaTeX Info: Redefining \% on input line 413.
+LaTeX Info: Redefining \. on input line 415.
+LaTeX Info: Redefining \% on input line 415.
 [24]
-LaTeX Info: Redefining \. on input line 429.
-LaTeX Info: Redefining \% on input line 429.
+LaTeX Info: Redefining \. on input line 431.
+LaTeX Info: Redefining \% on input line 431.
 [25]
-LaTeX Info: Redefining \. on input line 444.
-LaTeX Info: Redefining \% on input line 444.
+LaTeX Info: Redefining \. on input line 446.
+LaTeX Info: Redefining \% on input line 446.
 [26]
-LaTeX Info: Redefining \. on input line 454.
-LaTeX Info: Redefining \% on input line 454.
+LaTeX Info: Redefining \. on input line 456.
+LaTeX Info: Redefining \% on input line 456.
 [27]
-LaTeX Info: Redefining \. on input line 479.
-LaTeX Info: Redefining \% on input line 479.
+LaTeX Info: Redefining \. on input line 481.
+LaTeX Info: Redefining \% on input line 481.
 [28]
-LaTeX Info: Redefining \. on input line 506.
-LaTeX Info: Redefining \% on input line 506.
+LaTeX Info: Redefining \. on input line 508.
+LaTeX Info: Redefining \% on input line 508.
 [29]
-LaTeX Info: Redefining \. on input line 525.
-LaTeX Info: Redefining \% on input line 525.
+LaTeX Info: Redefining \. on input line 527.
+LaTeX Info: Redefining \% on input line 527.
 [30]
-LaTeX Info: Redefining \. on input line 543.
-LaTeX Info: Redefining \% on input line 543.
+LaTeX Info: Redefining \. on input line 545.
+LaTeX Info: Redefining \% on input line 545.
 [31]
-LaTeX Info: Redefining \. on input line 564.
-LaTeX Info: Redefining \% on input line 564.
+LaTeX Info: Redefining \. on input line 566.
+LaTeX Info: Redefining \% on input line 566.
 [32]
-LaTeX Info: Redefining \. on input line 590.
-LaTeX Info: Redefining \% on input line 590.
+LaTeX Info: Redefining \. on input line 592.
+LaTeX Info: Redefining \% on input line 592.
 [33]
 File: imagenes/tabla_1.png Graphic file (type bmp)
 <imagenes/tabla_1.png>
 File: imagenes/figura_1.png Graphic file (type bmp)
 <imagenes/figura_1.png>
-LaTeX Info: Redefining \. on input line 614.
-LaTeX Info: Redefining \% on input line 614.
+LaTeX Info: Redefining \. on input line 616.
+LaTeX Info: Redefining \% on input line 616.
 [34]
 File: imagenes/tabla_2.jpg Graphic file (type bmp)
 <imagenes/tabla_2.jpg>
-LaTeX Info: Redefining \. on input line 635.
-LaTeX Info: Redefining \% on input line 635.
+LaTeX Info: Redefining \. on input line 637.
+LaTeX Info: Redefining \% on input line 637.
 [35]
-LaTeX Info: Redefining \. on input line 635.
-LaTeX Info: Redefining \% on input line 635.
+LaTeX Info: Redefining \. on input line 637.
+LaTeX Info: Redefining \% on input line 637.
 [36]
 File: imagenes/tabla_2A.jpg Graphic file (type bmp)
 <imagenes/tabla_2A.jpg>
@@ -1119,13 +1119,13 @@ File: imagenes/tabla_2B.jpg Graphic file (type bmp)
 <imagenes/tabla_2B.jpg>
 File: imagenes/tabla_2C.jpg Graphic file (type bmp)
 <imagenes/tabla_2C.jpg>
-LaTeX Info: Redefining \. on input line 685.
-LaTeX Info: Redefining \% on input line 685.
+LaTeX Info: Redefining \. on input line 687.
+LaTeX Info: Redefining \% on input line 687.
 [37]
-LaTeX Info: Redefining \. on input line 685.
-LaTeX Info: Redefining \% on input line 685.
+LaTeX Info: Redefining \. on input line 687.
+LaTeX Info: Redefining \% on input line 687.
 [38]
-Underfull \hbox (badness 1028) in paragraph at lines 697--699
+Underfull \hbox (badness 1028) in paragraph at lines 699--701
 []\TU/lmr/m/n/10 Hoteles 3 estrellas, Apart hotel y Boutique, menos de 200 plaz
 as:
  []
@@ -1134,30 +1134,30 @@ File: imagenes/tabla_3.jpg Graphic file (type bmp)
 <imagenes/tabla_3.jpg>
 File: imagenes/tabla_4.jpg Graphic file (type bmp)
 <imagenes/tabla_4.jpg>
-LaTeX Info: Redefining \. on input line 740.
-LaTeX Info: Redefining \% on input line 740.
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
 [39]
-LaTeX Info: Redefining \. on input line 740.
-LaTeX Info: Redefining \% on input line 740.
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
 [40]
-LaTeX Info: Redefining \. on input line 740.
-LaTeX Info: Redefining \% on input line 740.
+LaTeX Info: Redefining \. on input line 742.
+LaTeX Info: Redefining \% on input line 742.
 [41]
-LaTeX Info: Redefining \. on input line 751.
-LaTeX Info: Redefining \% on input line 751.
+LaTeX Info: Redefining \. on input line 753.
+LaTeX Info: Redefining \% on input line 753.
 [42]
-LaTeX Info: Redefining \. on input line 779.
-LaTeX Info: Redefining \% on input line 779.
+LaTeX Info: Redefining \. on input line 781.
+LaTeX Info: Redefining \% on input line 781.
 [43]
-LaTeX Info: Redefining \. on input line 792.
-LaTeX Info: Redefining \% on input line 792.
+LaTeX Info: Redefining \. on input line 794.
+LaTeX Info: Redefining \% on input line 794.
 [44]
 File: imagenes/figura_2.jpg Graphic file (type bmp)
 <imagenes/figura_2.jpg>
 File: imagenes/figura_2_1.jpg Graphic file (type bmp)
 <imagenes/figura_2_1.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--812
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
 
  []
 
@@ -1167,30 +1167,30 @@ File: imagenes/figura_2_2_1.jpg Graphic file (type bmp)
 <imagenes/figura_2_2_1.jpg>
 File: imagenes/figura_2_2_2.jpg Graphic file (type bmp)
 <imagenes/figura_2_2_2.jpg>
-LaTeX Info: Redefining \. on input line 841.
-LaTeX Info: Redefining \% on input line 841.
+LaTeX Info: Redefining \. on input line 843.
+LaTeX Info: Redefining \% on input line 843.
 [45]
 File: imagenes/tabla_5.jpg Graphic file (type bmp)
 <imagenes/tabla_5.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
 
  []
 
 
-Overfull \hbox (6.64pt too wide) in paragraph at lines 866--867
+Overfull \hbox (6.64pt too wide) in paragraph at lines 868--869
 []\TU/lmr/m/n/10 Sin perder de vista las particularidades provinciales/departam
 entales/municipales
  []
 
-LaTeX Info: Redefining \. on input line 867.
-LaTeX Info: Redefining \% on input line 867.
+LaTeX Info: Redefining \. on input line 869.
+LaTeX Info: Redefining \% on input line 869.
 [46]
-LaTeX Info: Redefining \. on input line 867.
-LaTeX Info: Redefining \% on input line 867.
+LaTeX Info: Redefining \. on input line 869.
+LaTeX Info: Redefining \% on input line 869.
 [47]
-LaTeX Info: Redefining \. on input line 867.
-LaTeX Info: Redefining \% on input line 867.
+LaTeX Info: Redefining \. on input line 869.
+LaTeX Info: Redefining \% on input line 869.
 [48]
 File: imagenes/figura_3.jpg Graphic file (type bmp)
 <imagenes/figura_3.jpg>
@@ -1199,10 +1199,10 @@ File: imagenes/figura_3_1.jpg Graphic file (type bmp)
 File: imagenes/figura_3_2.jpg Graphic file (type bmp)
 <imagenes/figura_3_2.jpg>
 
-LaTeX Warning: Float too large for page by 24.05696pt on input line 893.
+LaTeX Warning: Float too large for page by 24.05696pt on input line 895.
 
-LaTeX Info: Redefining \. on input line 906.
-LaTeX Info: Redefining \% on input line 906.
+LaTeX Info: Redefining \. on input line 908.
+LaTeX Info: Redefining \% on input line 908.
 
 Overfull \hbox (65.86005pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 2.6.  CLASIFICACIÓN DE LOS ESTABLECIMIENTOS DE ALOJAMIENTO TURÍ
@@ -1210,62 +1210,62 @@ STICO \TU/lmr/m/n/10 49
  []
 
 [49]
-LaTeX Info: Redefining \. on input line 906.
-LaTeX Info: Redefining \% on input line 906.
+LaTeX Info: Redefining \. on input line 908.
+LaTeX Info: Redefining \% on input line 908.
 [50]
-LaTeX Info: Redefining \. on input line 906.
-LaTeX Info: Redefining \% on input line 906.
+LaTeX Info: Redefining \. on input line 908.
+LaTeX Info: Redefining \% on input line 908.
 [51]
-LaTeX Info: Redefining \. on input line 921.
-LaTeX Info: Redefining \% on input line 921.
+LaTeX Info: Redefining \. on input line 923.
+LaTeX Info: Redefining \% on input line 923.
 [52]
-LaTeX Info: Redefining \. on input line 956.
-LaTeX Info: Redefining \% on input line 956.
+LaTeX Info: Redefining \. on input line 958.
+LaTeX Info: Redefining \% on input line 958.
 [53]
 File: imagenes/tabla_5a.jpg Graphic file (type bmp)
 <imagenes/tabla_5a.jpg>
-LaTeX Info: Redefining \. on input line 980.
-LaTeX Info: Redefining \% on input line 980.
+LaTeX Info: Redefining \. on input line 982.
+LaTeX Info: Redefining \% on input line 982.
 [54]
 File: imagenes/tabla_6.jpg Graphic file (type bmp)
 <imagenes/tabla_6.jpg>
-LaTeX Info: Redefining \. on input line 1003.
-LaTeX Info: Redefining \% on input line 1003.
+LaTeX Info: Redefining \. on input line 1005.
+LaTeX Info: Redefining \% on input line 1005.
 [55]
 File: imagenes/tabla_6a.jpg Graphic file (type bmp)
 <imagenes/tabla_6a.jpg>
-LaTeX Info: Redefining \. on input line 1037.
-LaTeX Info: Redefining \% on input line 1037.
+LaTeX Info: Redefining \. on input line 1039.
+LaTeX Info: Redefining \% on input line 1039.
 [56]
-LaTeX Info: Redefining \. on input line 1042.
-LaTeX Info: Redefining \% on input line 1042.
+LaTeX Info: Redefining \. on input line 1044.
+LaTeX Info: Redefining \% on input line 1044.
 [57]
-LaTeX Info: Redefining \. on input line 1057.
-LaTeX Info: Redefining \% on input line 1057.
+LaTeX Info: Redefining \. on input line 1059.
+LaTeX Info: Redefining \% on input line 1059.
 [58]
-LaTeX Info: Redefining \. on input line 1091.
-LaTeX Info: Redefining \% on input line 1091.
+LaTeX Info: Redefining \. on input line 1093.
+LaTeX Info: Redefining \% on input line 1093.
 [59]
 File: imagenes/tabla_7a.jpg Graphic file (type bmp)
 <imagenes/tabla_7a.jpg>
-LaTeX Info: Redefining \. on input line 1126.
-LaTeX Info: Redefining \% on input line 1126.
+LaTeX Info: Redefining \. on input line 1128.
+LaTeX Info: Redefining \% on input line 1128.
 [60]
-LaTeX Info: Redefining \. on input line 1126.
-LaTeX Info: Redefining \% on input line 1126.
+LaTeX Info: Redefining \. on input line 1128.
+LaTeX Info: Redefining \% on input line 1128.
 [61]
 File: imagenes/tabla_7b.jpg Graphic file (type bmp)
 <imagenes/tabla_7b.jpg>
-LaTeX Info: Redefining \. on input line 1178.
-LaTeX Info: Redefining \% on input line 1178.
+LaTeX Info: Redefining \. on input line 1180.
+LaTeX Info: Redefining \% on input line 1180.
 [62]
 File: imagenes/tabla_8.jpg Graphic file (type bmp)
 <imagenes/tabla_8.jpg>
-LaTeX Info: Redefining \. on input line 1204.
-LaTeX Info: Redefining \% on input line 1204.
+LaTeX Info: Redefining \. on input line 1206.
+LaTeX Info: Redefining \% on input line 1206.
 [63]
-LaTeX Info: Redefining \. on input line 1204.
-LaTeX Info: Redefining \% on input line 1204.
+LaTeX Info: Redefining \. on input line 1206.
+LaTeX Info: Redefining \% on input line 1206.
 [64]
 File: imagenes/hoteles1y2_estrellas_menos_de_200_plazas.jpg Graphic file (type 
 bmp)
@@ -1285,15 +1285,15 @@ File: imagenes/establecimientos_parahoteleros.jpg Graphic file (type bmp)
 <imagenes/establecimientos_parahoteleros.jpg>
 File: imagenes/figuras_parte123_01.jpg Graphic file (type bmp)
 <imagenes/figuras_parte123_01.jpg>
-LaTeX Info: Redefining \. on input line 1277.
-LaTeX Info: Redefining \% on input line 1277.
+LaTeX Info: Redefining \. on input line 1279.
+LaTeX Info: Redefining \% on input line 1279.
 [65]
-LaTeX Info: Redefining \. on input line 1277.
-LaTeX Info: Redefining \% on input line 1277.
+LaTeX Info: Redefining \. on input line 1279.
+LaTeX Info: Redefining \% on input line 1279.
 [66]
 No file DT2.bbl.
-LaTeX Info: Redefining \. on input line 1280.
-LaTeX Info: Redefining \% on input line 1280.
+LaTeX Info: Redefining \. on input line 1282.
+LaTeX Info: Redefining \% on input line 1282.
 [67] (./DT2.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -1302,10 +1302,10 @@ Package rerunfilecheck Info: File `DT2.out' has not changed.
 (rerunfilecheck)             Checksum: 44AAAB0E6D3B73977112ABD4B01A673E;3507.
  ) 
 Here is how much of TeX's memory you used:
- 20113 strings out of 478461
- 370682 string characters out of 5856973
- 860871 words of memory out of 5000000
- 40106 multiletter control sequences out of 15000+600000
+ 20113 strings out of 478478
+ 370682 string characters out of 5859796
+ 859899 words of memory out of 5000000
+ 40089 multiletter control sequences out of 15000+600000
  407433 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  87i,18n,120p,2584b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
